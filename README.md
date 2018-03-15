@@ -12,6 +12,16 @@ $ apt install openssl libssl-dev
 
 ## Usage
 
+You can use Spider as librairy or a command line tools to save data in a Sqlite database.
+
+### Command line
+
+~~~bash
+$ cargo install mycrate --features=binaries
+~~~
+
+### Librairy
+
 Add this dependency to your _Cargo.toml_ file.
 
 ~~~toml

@@ -16,3 +16,4 @@ maintenance = { status = "as-is" }
 [dependencies]
 reqwest = "0.8.2"
 scraper = "0.4.0"
+rusqlite = "0.13.0"
